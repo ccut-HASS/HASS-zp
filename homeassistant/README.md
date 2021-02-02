@@ -1,0 +1,1 @@
+张鹏的homeassistant配置文档
