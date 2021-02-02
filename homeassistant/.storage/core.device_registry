@@ -1,0 +1,138 @@
+{
+    "version": 1,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "94b73a0509c1140be5cd8b909de92ef9"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hacs",
+                        "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+                    ]
+                ],
+                "manufacturer": "hacs.xyz",
+                "model": "",
+                "name": "HACS",
+                "sw_version": "1.10.1",
+                "entry_type": "service",
+                "id": "d7f2a54b4849bde35a7f21fc7114406c",
+                "via_device_id": null,
+                "area_id": "ke_ting",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "ae0dbbcda589b929f4f164827b75a9f3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "DC23A450-B62C-4EC0-B4BB-2BA9BE80B368"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPad4,4",
+                "name": "zp",
+                "sw_version": "12.5.1",
+                "entry_type": null,
+                "id": "c5949796838034c3ee2eb74c8dd1992c",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "70b36d70f8a40407a8f09d3ae8d39a87"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "F015B041-7095-449E-8256-73AC7FCA82F8"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone11,2",
+                "name": "Lee\u4e36Hb",
+                "sw_version": "14.0.1",
+                "entry_type": null,
+                "id": "c0d73d98346922d02193015f739b2c68",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "a7591ccecf5a5df0afbd57cab122083f"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "14b9278c1709b27a"
+                    ]
+                ],
+                "manufacturer": "HUAWEI",
+                "model": "STF-AL00",
+                "name": "Honor9",
+                "sw_version": "28",
+                "entry_type": null,
+                "id": "7ca4bd23f2ab0f6d3d1cf549b0293325",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            }
+        ],
+        "deleted_devices": [
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "0d103b58ad2f4c1e9105d47dcba6995b"
+                    ]
+                ],
+                "id": "8ba885e3a4ed79499e15a4c5302273a9",
+                "orphaned_timestamp": 1612052684.7885876
+            },
+            {
+                "config_entries": [],
+                "connections": [
+                    [
+                        "upnp",
+                        "uuid:upnp-InternetGatewayDevice-ED50D899FD6B"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:upnp-InternetGatewayDevice-ED50D899FD6B"
+                    ]
+                ],
+                "id": "b4925a507e1c203d66e51622d1a6fa5e",
+                "orphaned_timestamp": 1612052755.0298595
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "met"
+                    ]
+                ],
+                "id": "e89888e79937b3c9c155b74392db4983",
+                "orphaned_timestamp": 1612168181.8826005
+            }
+        ]
+    }
+}

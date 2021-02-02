@@ -1,0 +1,1245 @@
+2021-02-01 23:11:46 WARNING (SyncWorker_0) [homeassistant.util.yaml.loader] YAML file /config/configuration.yaml contains duplicate key "weather". Check lines 10 and 37
+2021-02-01 23:11:46 WARNING (SyncWorker_0) [homeassistant.util.yaml.loader] YAML file /config/configuration.yaml contains duplicate key "mqtt". Check lines 15 and 67
+2021-02-01 23:11:46 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for ha_file_explorer which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2021-02-01 23:11:46 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2021-02-01 23:11:46 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for ha_sidebar which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2021-02-01 23:11:46 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for ha_baidu_map which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2021-02-01 23:11:46 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for ha_qqmail which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2021-02-01 23:11:46 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for conversation which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2021-02-01 23:11:46 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for ha_ble_home which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2021-02-01 23:11:49 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for hf_weather which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2021-02-01 23:12:15 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for ha_cloud_music which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2021-02-01 23:12:20 ERROR (MainThread) [homeassistant.components.updater] Timeout fetching Home Assistant update data
+2021-02-01 23:12:50 ERROR (Thread-16) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:13:50 ERROR (Thread-47) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:14:50 ERROR (Thread-78) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:15:52 ERROR (Thread-108) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 1252, in run
+    self.finished.wait(self.interval)
+  File "/usr/local/lib/python3.8/threading.py", line 558, in wait
+    signaled = self._cond.wait(timeout)
+  File "/usr/local/lib/python3.8/threading.py", line 306, in wait
+    gotit = waiter.acquire(True, timeout)
+SystemExit
+2021-02-01 23:15:53 ERROR (Thread-109) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:16:50 ERROR (Thread-110) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:17:50 ERROR (Thread-111) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:18:50 ERROR (Thread-112) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:19:50 ERROR (Thread-113) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:20:50 ERROR (Thread-114) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:21:31 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from localhost (127.0.0.1). (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:85.0) Gecko/20100101 Firefox/85.0)
+2021-02-01 23:21:50 ERROR (Thread-115) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:22:06 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from localhost (127.0.0.1). (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:85.0) Gecko/20100101 Firefox/85.0)
+2021-02-01 23:22:18 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from localhost (127.0.0.1). (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:85.0) Gecko/20100101 Firefox/85.0)
+2021-02-01 23:22:50 ERROR (Thread-116) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:23:50 ERROR (Thread-117) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:24:50 ERROR (Thread-118) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:25:50 ERROR (Thread-119) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:26:50 ERROR (Thread-120) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:27:20 WARNING (MainThread) [homeassistant.components.mpd.media_player] Retrieving artwork through `albumart` command failed: [50@0] {albumart} No file exists
+2021-02-01 23:27:25 WARNING (MainThread) [homeassistant.components.mpd.media_player] Retrieving artwork through `albumart` command failed: [50@0] {albumart} No file exists
+2021-02-01 23:27:32 WARNING (MainThread) [homeassistant.components.mpd.media_player] Retrieving artwork through `albumart` command failed: [50@0] {albumart} No file exists
+2021-02-01 23:27:34 WARNING (MainThread) [homeassistant.components.mpd.media_player] Retrieving artwork through `albumart` command failed: [50@0] {albumart} No file exists
+2021-02-01 23:27:50 ERROR (Thread-121) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:28:50 ERROR (Thread-122) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:29:50 ERROR (Thread-123) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:30:50 ERROR (Thread-124) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:31:50 ERROR (Thread-125) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:32:50 ERROR (Thread-126) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:33:50 ERROR (Thread-127) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:34:50 ERROR (Thread-128) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:35:50 ERROR (Thread-129) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:36:50 ERROR (Thread-130) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:37:50 ERROR (Thread-131) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:38:50 ERROR (Thread-132) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:39:50 ERROR (Thread-133) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:40:50 ERROR (Thread-134) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:41:50 ERROR (Thread-135) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:42:50 ERROR (Thread-136) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:43:50 ERROR (Thread-137) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:44:50 ERROR (Thread-138) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:45:50 ERROR (Thread-139) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:46:50 ERROR (Thread-140) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:47:50 ERROR (Thread-141) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:48:50 ERROR (Thread-142) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:49:50 ERROR (Thread-143) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:50:50 ERROR (Thread-144) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:51:50 ERROR (Thread-145) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:52:50 ERROR (Thread-146) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:53:50 ERROR (Thread-147) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:54:50 ERROR (Thread-148) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:55:50 ERROR (Thread-149) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:56:50 ERROR (Thread-150) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:57:50 ERROR (Thread-151) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:58:50 ERROR (Thread-152) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-01 23:59:50 ERROR (Thread-153) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:00:50 ERROR (Thread-154) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:01:50 ERROR (Thread-155) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:02:50 ERROR (Thread-156) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:03:50 ERROR (Thread-157) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:04:50 ERROR (Thread-158) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:05:50 ERROR (Thread-159) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:06:50 ERROR (Thread-160) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:07:50 ERROR (Thread-161) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:08:50 ERROR (Thread-162) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:09:50 ERROR (Thread-163) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:10:50 ERROR (Thread-164) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:11:50 ERROR (Thread-165) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:12:50 ERROR (Thread-166) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:13:50 ERROR (Thread-167) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:14:50 ERROR (Thread-168) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:15:50 ERROR (Thread-169) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:16:50 ERROR (Thread-170) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:17:50 ERROR (Thread-171) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:18:50 ERROR (Thread-172) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:19:50 ERROR (Thread-173) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:20:50 ERROR (Thread-174) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:21:50 ERROR (Thread-175) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:22:50 ERROR (Thread-176) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:23:50 ERROR (Thread-177) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:24:50 ERROR (Thread-178) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:25:51 ERROR (Thread-179) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:26:51 ERROR (Thread-180) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:27:51 ERROR (Thread-181) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:28:51 ERROR (Thread-182) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:29:51 ERROR (Thread-183) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:30:51 ERROR (Thread-184) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:31:51 ERROR (Thread-185) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:32:51 ERROR (Thread-186) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:33:51 ERROR (Thread-187) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:34:51 ERROR (Thread-188) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:35:51 ERROR (Thread-189) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:36:51 ERROR (Thread-190) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:37:51 ERROR (Thread-191) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:38:51 ERROR (Thread-192) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:39:51 ERROR (Thread-193) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:40:51 ERROR (Thread-194) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:41:51 ERROR (Thread-195) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:42:51 ERROR (Thread-196) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:43:51 ERROR (Thread-197) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:44:51 ERROR (Thread-198) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:45:51 ERROR (Thread-199) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:46:51 ERROR (Thread-200) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:47:51 ERROR (Thread-201) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:48:51 ERROR (Thread-202) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:49:51 ERROR (Thread-203) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:50:51 ERROR (Thread-204) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:51:51 ERROR (Thread-205) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:52:51 ERROR (Thread-206) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:53:51 ERROR (Thread-207) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:54:51 ERROR (Thread-208) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:55:51 ERROR (Thread-209) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:56:51 ERROR (Thread-210) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:57:51 ERROR (Thread-211) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:58:51 ERROR (Thread-212) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 00:59:51 ERROR (Thread-213) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 01:00:51 ERROR (Thread-214) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 01:01:51 ERROR (Thread-215) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 01:02:51 ERROR (Thread-216) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 01:03:51 ERROR (Thread-217) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 01:04:51 ERROR (Thread-218) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 01:05:51 ERROR (Thread-219) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 01:06:51 ERROR (Thread-220) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 01:07:51 ERROR (Thread-221) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 01:08:51 ERROR (Thread-222) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 01:09:51 ERROR (Thread-223) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 01:10:51 ERROR (Thread-224) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 01:11:51 ERROR (Thread-225) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 01:12:51 ERROR (Thread-226) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 01:13:51 ERROR (Thread-227) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 01:14:51 ERROR (Thread-228) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 01:15:51 ERROR (Thread-229) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 01:16:51 ERROR (Thread-230) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 01:17:51 ERROR (Thread-231) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 01:18:51 ERROR (Thread-232) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 01:19:51 ERROR (Thread-233) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 01:20:51 ERROR (Thread-234) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 01:21:51 ERROR (Thread-235) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 01:22:51 ERROR (Thread-236) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 01:23:51 ERROR (Thread-237) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 01:24:51 ERROR (Thread-238) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 01:25:51 ERROR (Thread-239) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'
+2021-02-02 01:26:51 ERROR (Thread-240) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/config/custom_components/ha_ble_home/__init__.py", line 93, in scan
+    import bluetooth
+ModuleNotFoundError: No module named 'bluetooth'

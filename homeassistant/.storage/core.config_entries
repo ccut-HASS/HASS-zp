@@ -1,0 +1,151 @@
+{
+    "version": 1,
+    "key": "core.config_entries",
+    "data": {
+        "entries": [
+            {
+                "entry_id": "94b73a0509c1140be5cd8b909de92ef9",
+                "version": 1,
+                "domain": "hacs",
+                "title": "",
+                "data": {
+                    "token": "e5b805bb8a6c8db95e327588c9fc051706722111"
+                },
+                "options": {
+                    "sidepanel_title": "HACS",
+                    "sidepanel_icon": "hacs:hacs",
+                    "release_limit": 5,
+                    "country": "ALL",
+                    "appdaemon": true,
+                    "netdaemon": true,
+                    "debug": true,
+                    "experimental": true
+                },
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "user",
+                "connection_class": "cloud_poll",
+                "unique_id": null
+            },
+            {
+                "entry_id": "52c1983c34dbc160017866bf3eebf56b",
+                "version": 1,
+                "domain": "upnp",
+                "title": "UPnP/IGD: Wireless N Router MW315R",
+                "data": {},
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "ignore",
+                "connection_class": "local_poll",
+                "unique_id": "uuid:upnp-InternetGatewayDevice-ED50D899FD6B::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
+            },
+            {
+                "entry_id": "ae0dbbcda589b929f4f164827b75a9f3",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "zp",
+                "data": {
+                    "supports_encryption": true,
+                    "app_version": "2021.1.1 (9)",
+                    "app_id": "io.robbie.HomeAssistant",
+                    "manufacturer": "Apple",
+                    "device_name": "zp",
+                    "app_name": "Home Assistant",
+                    "os_version": "12.5.1",
+                    "os_name": "iOS",
+                    "device_id": "DC23A450-B62C-4EC0-B4BB-2BA9BE80B368",
+                    "model": "iPad4,4",
+                    "app_data": {},
+                    "webhook_id": "04cac28cf5d57b693eac04fb6db0c31ff68610ad2887acbef13d28f63e9aec61",
+                    "secret": "3c895bc8d3a2bb92f7e2b795d1c8333dfc2c379010c8ed40a507601b894f17d7",
+                    "user_id": "1a6e15a35cf447b285ee8109b355636c"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "registration",
+                "connection_class": "cloud_push",
+                "unique_id": "io.robbie.HomeAssistant-DC23A450-B62C-4EC0-B4BB-2BA9BE80B368"
+            },
+            {
+                "entry_id": "70b36d70f8a40407a8f09d3ae8d39a87",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "Lee\u4e36Hb",
+                "data": {
+                    "app_id": "io.robbie.HomeAssistant",
+                    "os_version": "14.0.1",
+                    "device_id": "F015B041-7095-449E-8256-73AC7FCA82F8",
+                    "os_name": "iOS",
+                    "model": "iPhone11,2",
+                    "device_name": "Lee\u4e36Hb",
+                    "app_name": "Home Assistant",
+                    "manufacturer": "Apple",
+                    "supports_encryption": true,
+                    "app_version": "2021.1.1 (9)",
+                    "app_data": {},
+                    "webhook_id": "a18bcbab6a4f5af34a6e937b716a4566570ad4f9fe50bdee8d60418531b31c1c",
+                    "secret": "8ac5b800bd5589cdb640f2b88d5ef2f89ec7582d8599359dcb06256189e9433f",
+                    "user_id": "1a6e15a35cf447b285ee8109b355636c"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "registration",
+                "connection_class": "cloud_push",
+                "unique_id": "io.robbie.HomeAssistant-F015B041-7095-449E-8256-73AC7FCA82F8"
+            },
+            {
+                "entry_id": "2303d99112fdd1352bc23437c70d8087",
+                "version": 1,
+                "domain": "mqtt",
+                "title": "192.168.0.100",
+                "data": {
+                    "port": 1883,
+                    "discovery": true,
+                    "broker": "192.168.0.100"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "user",
+                "connection_class": "local_push",
+                "unique_id": null
+            },
+            {
+                "entry_id": "a7591ccecf5a5df0afbd57cab122083f",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "Honor9",
+                "data": {
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "beta-571-21c95bf-full (571)",
+                    "device_name": "Honor9",
+                    "manufacturer": "HUAWEI",
+                    "model": "STF-AL00",
+                    "os_name": "Android",
+                    "os_version": "28",
+                    "supports_encryption": false,
+                    "device_id": "14b9278c1709b27a",
+                    "app_data": {},
+                    "webhook_id": "46aa8c3e308fcd9bc132443acf282d46f8bbfdd75da8ed6c7eb9da43680fab6e",
+                    "user_id": "1a6e15a35cf447b285ee8109b355636c"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "registration",
+                "connection_class": "cloud_push",
+                "unique_id": "io.homeassistant.companion.android-14b9278c1709b27a"
+            }
+        ]
+    }
+}

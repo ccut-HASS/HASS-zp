@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "key": "image",
+    "data": {
+        "items": [
+            {
+                "id": "36e11a49f3a99eface62ddaa433e1b2e",
+                "filesize": 18753,
+                "content_type": "image/jpeg",
+                "name": "\u8def\u98de.jpg",
+                "uploaded_at": "2021-01-30T09:11:20.376835+00:00"
+            }
+        ]
+    }
+}

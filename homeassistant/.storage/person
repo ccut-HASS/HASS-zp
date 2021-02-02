@@ -1,0 +1,19 @@
+{
+    "version": 2,
+    "key": "person",
+    "data": {
+        "items": [
+            {
+                "name": "zp",
+                "user_id": "1a6e15a35cf447b285ee8109b355636c",
+                "device_trackers": [
+                    "device_tracker.zp",
+                    "device_tracker.leezhu_hb",
+                    "device_tracker.honor9"
+                ],
+                "id": "zp",
+                "picture": "/api/image/serve/36e11a49f3a99eface62ddaa433e1b2e/512x512"
+            }
+        ]
+    }
+}

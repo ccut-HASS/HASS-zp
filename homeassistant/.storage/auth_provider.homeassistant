@@ -1,0 +1,16 @@
+{
+    "version": 1,
+    "key": "auth_provider.homeassistant",
+    "data": {
+        "users": [
+            {
+                "username": "zp",
+                "password": "JDJiJDEyJGE4OUh5bEg1ekc4bWlUaHJrZmVQbE9JQkxFZGRvTDZ6ZS9KeU9INjczZ3hWNjllNml4MEMu"
+            },
+            {
+                "username": "zp2",
+                "password": "JDJiJDEyJFI5LzA4UU5FeGNrQzIvT21xV3RwOGVPS0IwSVd1SE9Sa3RxeURLUkxpMkpDcU5tV1hhOXAu"
+            }
+        ]
+    }
+}

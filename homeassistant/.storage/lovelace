@@ -1,0 +1,162 @@
+{
+    "version": 1,
+    "key": "lovelace",
+    "data": {
+        "config": {
+            "title": "\u6211\u7684\u5bb6",
+            "views": [
+                {
+                    "path": "default_view",
+                    "title": "Home",
+                    "badges": [
+                        {
+                            "entity": "binary_sensor.updater"
+                        },
+                        {
+                            "entity": "person.zp"
+                        },
+                        {
+                            "entity": "sun.sun"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "type": "custom:hf_weather-card",
+                            "entity": "weather.tian_qi",
+                            "mode": "hourly",
+                            "title": "\u6211\u7684\u5bb6\u5929\u6c14"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "sensor.date",
+                                "sensor.time"
+                            ],
+                            "state_color": true,
+                            "header": {
+                                "type": "picture",
+                                "image": "https://www.home-assistant.io/images/lovelace/header-footer/balloons-header.png",
+                                "tap_action": {
+                                    "action": "none"
+                                },
+                                "hold_action": {
+                                    "action": "none"
+                                }
+                            }
+                        },
+                        {
+                            "type": "gauge",
+                            "entity": "sensor.disk_use_percent",
+                            "min": 0,
+                            "max": 100
+                        },
+                        {
+                            "type": "button",
+                            "tap_action": {
+                                "action": "toggle"
+                            },
+                            "entity": "light.led_light_over_mqtt",
+                            "name": "\u706f\u6ce1\u6d4b\u8bd5",
+                            "show_state": true,
+                            "show_icon": true,
+                            "show_name": true
+                        },
+                        {
+                            "type": "media-control",
+                            "entity": "media_player.yun_yin_le"
+                        },
+                        {
+                            "type": "entity",
+                            "entity": "camera.generic_camera"
+                        },
+                        {
+                            "type": "media-control",
+                            "entity": "media_player.mpd"
+                        }
+                    ]
+                },
+                {
+                    "panel": false,
+                    "title": "\u7cfb\u7edf\u6982\u89c8",
+                    "theme": "",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "sensor.swap_use_percent"
+                                },
+                                {
+                                    "entity": "sensor.ipv6_address_eth0"
+                                },
+                                {
+                                    "entity": "sensor.disk_free"
+                                },
+                                {
+                                    "entity": "sensor.ipv4_address_eth0"
+                                },
+                                {
+                                    "entity": "sensor.network_throughput_in_eth0"
+                                },
+                                {
+                                    "entity": "sensor.connected_clients"
+                                },
+                                {
+                                    "entity": "sensor.network_in_eth0"
+                                },
+                                {
+                                    "entity": "sensor.network_out_eth0"
+                                }
+                            ],
+                            "title": "\u7cfb\u7edf\u4fe1\u606f",
+                            "theme": "happy"
+                        },
+                        {
+                            "type": "gauge",
+                            "entity": "sensor.processor_use_percent",
+                            "min": 0,
+                            "max": 100,
+                            "name": "CPU\u5360\u7528\u7387"
+                        },
+                        {
+                            "type": "gauge",
+                            "entity": "sensor.memory_use_percent",
+                            "min": 0,
+                            "max": 100
+                        },
+                        {
+                            "type": "gauge",
+                            "entity": "sensor.disk_use_percent",
+                            "min": 0,
+                            "max": 100
+                        },
+                        {
+                            "type": "gauge",
+                            "entity": "sensor.cpu_temperature",
+                            "min": 0,
+                            "max": 100,
+                            "severity": {
+                                "green": 40,
+                                "yellow": 0,
+                                "red": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "\u5e38\u7528",
+                    "path": "t",
+                    "theme": "ios-dark-mode-light-blue-alternative",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "custom:lovelace-baidu-map",
+                            "entity": "zone.home"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
